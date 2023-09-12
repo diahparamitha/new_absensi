@@ -292,4 +292,16 @@
   })
 </script>
 
+<script>
+  // Fungsi untuk menampilkan pemberitahuan saat halaman dimuat
+  document.addEventListener('DOMContentLoaded', function () {
+    Swal.fire({
+      title: 'Selamat Datang!',
+      text: 'Batas Absensi pukul 09.00 WIB.',
+      icon: 'info',
+      confirmButtonText: 'OK'
+    });
+  });
+</script>
+
 @endsection
